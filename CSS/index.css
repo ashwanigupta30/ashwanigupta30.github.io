@@ -1,0 +1,206 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 17, 2016, 1:31:14 AM
+    Author     : Devanshu
+*/
+body{
+    background-color: #f1f1f1;
+}
+div.my-wrapper{
+    // padding: 0px;
+    //padding-left: 1%;
+    margin: 0px;
+    // border: 1px solid green;
+}
+.my-discription,.my-details,.my-education{
+    margin: 0px;
+    margin-top: 15px;
+    margin-left: 3%;
+    background-color: white;
+
+    // margin: 15px;
+    //border: 1px solid green;
+    padding: 0px;
+    //background-color: #eaeaea;
+    // box-shadow: 10px 10px 5px #888888;
+    box-shadow: 0px 7px 20px 2px #adabab;
+}
+.my-projects{
+    margin-top: 15px;
+    box-shadow: 0px 7px 20px 2px #adabab;
+    background-color: white;
+    width: 95%;
+}
+.my-discription h3{
+    margin: 20px 0px;
+    padding-left: 10px;
+}
+div.about-me{
+    padding: 0px 10px;
+}
+div.my-discription hr{
+    border-color: #9c9c9c;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.about-me p,div.my-skills p,div.my-languages p{
+    padding: 10px 0px;
+    margin: 0px;
+    color: black;
+}
+div.my-skills p span,div.my-languages p span{
+    float: right;
+}
+div.my-skills .progress,div.my-languages .progress{
+    margin: 0px;
+    height: 10px;
+}
+div.my-skills .progress .progress-bar,div.my-languages .progress .progress-bar{
+    background-image: none;
+    background-color: #009688;
+}
+div.my-details div h2{
+    margin-bottom: 20px;
+}
+div.experience h5 span{
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    background-color: #009688
+}
+.fa{
+    color :#009688;
+}
+.footer{
+    background-color :#009688;
+}
+.technologies-used{
+    display: inline-block;
+    background-color: grey;
+    color:white;
+    padding:3px;
+    margin-right: 2px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+footer{
+    margin-top: 20px;
+    background-color: #009688;
+}
+footer p{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.social ul{
+    padding-left: 0px;
+    margin-bottom: 40px;
+}
+.social ul.social_icons li {
+    display: inline-block;
+}
+.social ul.social_icons li a{
+    width: 30px;
+    height: 30px;
+    font-size: 0px;
+    background: url(../images/social.png) no-repeat;
+    margin-top: 4px;
+    display:block;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+.social ul.social_icons li.facebook a:hover{
+    background-position: 0 -33px;
+} 
+.social ul.social_icons li.twitter a{
+    background-position:-33px 0;
+} 
+.social ul.social_icons li.twitter a:hover{
+    background-position:-33px -33px;
+}
+.social ul.social_icons li.insta a{
+    background-position: -66px 0;
+} 
+.social ul.social_icons li.insta a:hover{
+    background-position: -66px -33px;
+}
+.social ul.social_icons li.youtube a {
+    background-position: -99px 0;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    div.about-me p, div.my-skills p, div.my-languages p{
+        padding: 10px 0px;
+        font-size: 0.9em;
+    }
+    .my-wrapper{
+        padding-right: 0px;
+        padding-left: 35px;
+    }
+    .my-discription,.my-details,.my-education{
+        margin-left: 10px;
+    }
+    div.my-details div h2,div.my-education div h2{
+        font-size: 1.8em;
+    }
+    div.experience h4{
+        font-size: 1.4em;
+    }
+    div.experience h5{
+        font-size:  0.8em;
+    }
+    div.experience h5 span{
+        font-size: 0.9em;
+    }
+    div.experience p{
+        font-size: 0.9em;
+    }
+    div.experience hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+    .my-discription,.my-details,.my-education{
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    div.about-me p, div.my-skills p, div.my-languages p{
+        padding: 10px 0px;
+        font-size: 1em;
+    }
+    .my-discription,.my-details,.my-education{
+        margin-left: 0px;
+    }
+    div.my-details div h2,div.my-education div h2{
+        font-size: 1.8em;
+    }
+    div.experience h4{
+        font-size: 1.2em;
+    }
+    div.experience h5{
+        font-size:  0.8em;
+    }
+    div.experience h5 span{
+        font-size: 0.9em;
+    }
+    div.experience p{
+        font-size: 0.9em;
+    }
+    div.experience p span{
+        font-size: 0.9em;
+    }
+    div.experience hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }              
+}
+
